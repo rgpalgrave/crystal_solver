@@ -1,0 +1,202 @@
+{
+  "lattice_types": {
+    "cP": {
+      "name": "Primitive Cubic (Simple Cubic)",
+      "crystal_system": "cubic",
+      "centering": "P",
+      "atoms_per_cell": 1,
+      "coordination_number": 6,
+      "nearest_neighbor_formula": "a",
+      "nearest_neighbor_factor": 1.0,
+      "examples": ["Po"]
+    },
+    "cI": {
+      "name": "Body-Centered Cubic (BCC)",
+      "crystal_system": "cubic",
+      "centering": "I",
+      "atoms_per_cell": 2,
+      "coordination_number": 8,
+      "nearest_neighbor_formula": "a*sqrt(3)/2",
+      "nearest_neighbor_factor": 0.866025,
+      "examples": ["Fe", "Cr", "W", "Mo", "V", "Na", "K"]
+    },
+    "cF": {
+      "name": "Face-Centered Cubic (FCC)",
+      "crystal_system": "cubic",
+      "centering": "F",
+      "atoms_per_cell": 4,
+      "coordination_number": 12,
+      "nearest_neighbor_formula": "a/sqrt(2)",
+      "nearest_neighbor_factor": 0.707107,
+      "examples": ["Cu", "Ag", "Au", "Al", "Ni", "Pb", "Pt"]
+    },
+    "tP": {
+      "name": "Primitive Tetragonal",
+      "crystal_system": "tetragonal",
+      "centering": "P",
+      "atoms_per_cell": 1,
+      "coordination_number": 6,
+      "nearest_neighbor_formula": "min(a, c)",
+      "examples": ["In", "Sn (white)"]
+    },
+    "tI": {
+      "name": "Body-Centered Tetragonal",
+      "crystal_system": "tetragonal",
+      "centering": "I",
+      "atoms_per_cell": 2,
+      "coordination_number": 8,
+      "nearest_neighbor_formula": "sqrt(a²/2 + c²/4)",
+      "examples": ["TiO2 (rutile Ti sublattice)", "SnO2"]
+    },
+    "oP": {
+      "name": "Primitive Orthorhombic",
+      "crystal_system": "orthorhombic",
+      "centering": "P",
+      "atoms_per_cell": 1,
+      "coordination_number": 6,
+      "examples": ["Ga", "S", "I2"]
+    },
+    "oI": {
+      "name": "Body-Centered Orthorhombic",
+      "crystal_system": "orthorhombic",
+      "centering": "I",
+      "atoms_per_cell": 2,
+      "coordination_number": 8,
+      "examples": []
+    },
+    "oF": {
+      "name": "Face-Centered Orthorhombic",
+      "crystal_system": "orthorhombic",
+      "centering": "F",
+      "atoms_per_cell": 4,
+      "coordination_number": 12,
+      "examples": []
+    },
+    "oC": {
+      "name": "Base-Centered Orthorhombic (C-centered)",
+      "crystal_system": "orthorhombic",
+      "centering": "C",
+      "atoms_per_cell": 2,
+      "coordination_number": 6,
+      "examples": []
+    },
+    "hP": {
+      "name": "Hexagonal",
+      "crystal_system": "hexagonal",
+      "centering": "P",
+      "atoms_per_cell": 1,
+      "coordination_number": 12,
+      "nearest_neighbor_formula": "a (in-plane)",
+      "ideal_ca_ratio": 1.633,
+      "examples": ["Mg", "Zn", "Ti (alpha)", "Co (alpha)", "Be"]
+    },
+    "hR": {
+      "name": "Rhombohedral (Trigonal)",
+      "crystal_system": "trigonal",
+      "centering": "R",
+      "atoms_per_cell": 1,
+      "coordination_number": 12,
+      "examples": ["Bi", "Sb", "As", "Hg"]
+    },
+    "mP": {
+      "name": "Primitive Monoclinic",
+      "crystal_system": "monoclinic",
+      "centering": "P",
+      "atoms_per_cell": 1,
+      "coordination_number": 6,
+      "examples": ["S (monoclinic)", "Se"]
+    },
+    "mC": {
+      "name": "Base-Centered Monoclinic",
+      "crystal_system": "monoclinic",
+      "centering": "C",
+      "atoms_per_cell": 2,
+      "coordination_number": 6,
+      "examples": []
+    },
+    "aP": {
+      "name": "Triclinic",
+      "crystal_system": "triclinic",
+      "centering": "P",
+      "atoms_per_cell": 1,
+      "coordination_number": 6,
+      "examples": []
+    }
+  },
+  "reference_structures": {
+    "TiO2_rutile": {
+      "lattice_type": "tI",
+      "a": 4.594,
+      "c": 2.959,
+      "ca_ratio": 0.644,
+      "space_group": "P4_2/mnm (136)",
+      "Ti_positions_fractional": [
+        [0, 0, 0],
+        [0.5, 0.5, 0.5]
+      ],
+      "O_positions_fractional": [
+        [0.305, 0.305, 0],
+        [0.695, 0.695, 0],
+        [0.195, 0.805, 0.5],
+        [0.805, 0.195, 0.5]
+      ],
+      "coordination": {
+        "Ti": 6,
+        "O": 3
+      }
+    },
+    "NaCl_rocksalt": {
+      "lattice_type": "cF",
+      "a": 5.64,
+      "space_group": "Fm-3m (225)",
+      "Na_positions_fractional": [
+        [0, 0, 0]
+      ],
+      "Cl_positions_fractional": [
+        [0.5, 0.5, 0.5]
+      ],
+      "coordination": {
+        "Na": 6,
+        "Cl": 6
+      }
+    },
+    "ZnS_zincblende": {
+      "lattice_type": "cF",
+      "a": 5.41,
+      "space_group": "F-43m (216)",
+      "Zn_positions_fractional": [
+        [0, 0, 0]
+      ],
+      "S_positions_fractional": [
+        [0.25, 0.25, 0.25]
+      ],
+      "coordination": {
+        "Zn": 4,
+        "S": 4
+      }
+    },
+    "CaF2_fluorite": {
+      "lattice_type": "cF",
+      "a": 5.46,
+      "space_group": "Fm-3m (225)",
+      "Ca_positions_fractional": [
+        [0, 0, 0]
+      ],
+      "F_positions_fractional": [
+        [0.25, 0.25, 0.25],
+        [0.75, 0.75, 0.75]
+      ],
+      "coordination": {
+        "Ca": 8,
+        "F": 4
+      }
+    }
+  },
+  "coordination_number_rules": {
+    "6": "Octahedral - simple cubic, rock salt anion",
+    "8": "Body diagonal - BCC, fluorite cation",
+    "12": "Close-packed - FCC, HCP",
+    "4": "Tetrahedral - zinc blende",
+    "3": "Trigonal planar - rutile oxygen"
+  }
+}

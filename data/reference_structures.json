@@ -1,0 +1,283 @@
+{
+  "TiO2_rutile": {
+    "name": "Rutile",
+    "formula": "TiO2",
+    "stoichiometry": "MX2",
+    "lattice_type": "tI",
+    "params": {
+      "a": 4.594,
+      "c": 2.958
+    },
+    "c_over_a": 0.644,
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.5]
+    ],
+    "anion_positions": [
+      [0.305, 0.305, 0.0],
+      [0.695, 0.695, 0.0],
+      [0.805, 0.195, 0.5],
+      [0.195, 0.805, 0.5]
+    ],
+    "coordination_numbers": [3, 3, 3, 3],
+    "n_cations": 2,
+    "space_group": "P42/mnm",
+    "space_group_number": 136,
+    "source": "ICSD, Materialsproject mp-2657",
+    "notes": "Ti atoms on body-centered tetragonal lattice, O in CN-3 trigonal planar coordination"
+  },
+  
+  "NaCl_rock_salt": {
+    "name": "Rock Salt",
+    "formula": "NaCl",
+    "stoichiometry": "MX",
+    "lattice_type": "cF",
+    "params": {
+      "a": 5.640
+    },
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.0],
+      [0.5, 0.0, 0.5],
+      [0.0, 0.5, 0.5]
+    ],
+    "anion_positions": [
+      [0.5, 0.0, 0.0],
+      [0.0, 0.5, 0.0],
+      [0.0, 0.0, 0.5],
+      [0.5, 0.5, 0.5]
+    ],
+    "coordination_numbers": [6, 6, 6, 6],
+    "n_cations": 4,
+    "space_group": "Fm-3m",
+    "space_group_number": 225,
+    "source": "ICSD, Standard reference",
+    "notes": "Na and Cl both in CN-6 octahedral coordination"
+  },
+  
+  "ZnS_zinc_blende": {
+    "name": "Zinc Blende (Sphalerite)",
+    "formula": "ZnS",
+    "stoichiometry": "MX",
+    "lattice_type": "cF",
+    "params": {
+      "a": 5.409
+    },
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.0],
+      [0.5, 0.0, 0.5],
+      [0.0, 0.5, 0.5]
+    ],
+    "anion_positions": [
+      [0.25, 0.25, 0.25],
+      [0.75, 0.75, 0.25],
+      [0.75, 0.25, 0.75],
+      [0.25, 0.75, 0.75]
+    ],
+    "coordination_numbers": [4, 4, 4, 4],
+    "n_cations": 4,
+    "space_group": "F-43m",
+    "space_group_number": 216,
+    "source": "ICSD, Standard reference",
+    "notes": "Zn and S both in CN-4 tetrahedral coordination"
+  },
+  
+  "CaF2_fluorite": {
+    "name": "Fluorite",
+    "formula": "CaF2",
+    "stoichiometry": "MX2",
+    "lattice_type": "cF",
+    "params": {
+      "a": 5.463
+    },
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.0],
+      [0.5, 0.0, 0.5],
+      [0.0, 0.5, 0.5]
+    ],
+    "anion_positions": [
+      [0.25, 0.25, 0.25],
+      [0.75, 0.75, 0.25],
+      [0.75, 0.25, 0.75],
+      [0.25, 0.75, 0.75],
+      [0.25, 0.75, 0.25],
+      [0.75, 0.25, 0.25],
+      [0.25, 0.25, 0.75],
+      [0.75, 0.75, 0.75]
+    ],
+    "coordination_numbers": [4, 4, 4, 4, 4, 4, 4, 4],
+    "n_cations": 4,
+    "space_group": "Fm-3m",
+    "space_group_number": 225,
+    "source": "ICSD, Standard reference",
+    "notes": "Ca in CN-8 cubic, F in CN-4 tetrahedral. All 8 tetrahedral sites occupied."
+  },
+  
+  "CsCl_cesium_chloride": {
+    "name": "Cesium Chloride",
+    "formula": "CsCl",
+    "stoichiometry": "MX",
+    "lattice_type": "cP",
+    "params": {
+      "a": 4.123
+    },
+    "cation_positions": [
+      [0.0, 0.0, 0.0]
+    ],
+    "anion_positions": [
+      [0.5, 0.5, 0.5]
+    ],
+    "coordination_numbers": [8],
+    "n_cations": 1,
+    "space_group": "Pm-3m",
+    "space_group_number": 221,
+    "source": "ICSD, Standard reference",
+    "notes": "Cs and Cl both in CN-8 cubic coordination"
+  },
+  
+  "TiO2_anatase": {
+    "name": "Anatase",
+    "formula": "TiO2",
+    "stoichiometry": "MX2",
+    "lattice_type": "tI",
+    "params": {
+      "a": 3.785,
+      "c": 9.514
+    },
+    "c_over_a": 2.514,
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.25],
+      [0.0, 0.5, 0.5],
+      [0.5, 0.0, 0.75]
+    ],
+    "anion_positions": [
+      [0.0, 0.0, 0.208],
+      [0.0, 0.0, 0.792],
+      [0.5, 0.5, 0.458],
+      [0.5, 0.5, 0.042],
+      [0.0, 0.5, 0.708],
+      [0.0, 0.5, 0.292],
+      [0.5, 0.0, 0.958],
+      [0.5, 0.0, 0.542]
+    ],
+    "coordination_numbers": [3, 3, 3, 3, 3, 3, 3, 3],
+    "n_cations": 4,
+    "space_group": "I41/amd",
+    "space_group_number": 141,
+    "source": "ICSD, Materialsproject mp-390",
+    "notes": "Another TiO2 polymorph with different structure"
+  },
+  
+  "MgO_periclase": {
+    "name": "Periclase",
+    "formula": "MgO",
+    "stoichiometry": "MX",
+    "lattice_type": "cF",
+    "params": {
+      "a": 4.212
+    },
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.0],
+      [0.5, 0.0, 0.5],
+      [0.0, 0.5, 0.5]
+    ],
+    "anion_positions": [
+      [0.5, 0.0, 0.0],
+      [0.0, 0.5, 0.0],
+      [0.0, 0.0, 0.5],
+      [0.5, 0.5, 0.5]
+    ],
+    "coordination_numbers": [6, 6, 6, 6],
+    "n_cations": 4,
+    "space_group": "Fm-3m",
+    "space_group_number": 225,
+    "source": "ICSD, Standard reference",
+    "notes": "Rock salt structure, Mg and O both in CN-6 octahedral"
+  },
+  
+  "ZnO_wurtzite": {
+    "name": "Wurtzite",
+    "formula": "ZnO",
+    "stoichiometry": "MX",
+    "lattice_type": "hP",
+    "params": {
+      "a": 3.250,
+      "c": 5.207
+    },
+    "c_over_a": 1.602,
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.333, 0.667, 0.5]
+    ],
+    "anion_positions": [
+      [0.0, 0.0, 0.382],
+      [0.333, 0.667, 0.882]
+    ],
+    "coordination_numbers": [4, 4],
+    "n_cations": 2,
+    "space_group": "P63mc",
+    "space_group_number": 186,
+    "source": "ICSD, Standard reference",
+    "notes": "Hexagonal polymorph of ZnS, Zn and O both in CN-4 tetrahedral"
+  },
+  
+  "Al2O3_corundum": {
+    "name": "Corundum",
+    "formula": "Al2O3",
+    "stoichiometry": "M2X3",
+    "lattice_type": "hR",
+    "params": {
+      "a": 4.758,
+      "alpha": 55.28
+    },
+    "cation_positions": [
+      [0.352, 0.352, 0.352],
+      [0.648, 0.648, 0.648],
+      [0.852, 0.852, 0.852],
+      [0.148, 0.148, 0.148]
+    ],
+    "anion_positions": [
+      [0.556, 0.944, 0.25],
+      [0.944, 0.25, 0.556],
+      [0.25, 0.556, 0.944],
+      [0.444, 0.056, 0.75],
+      [0.056, 0.75, 0.444],
+      [0.75, 0.444, 0.056]
+    ],
+    "coordination_numbers": [4, 4, 4, 4, 4, 4],
+    "n_cations": 4,
+    "space_group": "R-3c",
+    "space_group_number": 167,
+    "source": "ICSD, Standard reference",
+    "notes": "Al in distorted CN-6 octahedral, O in CN-4 tetrahedral"
+  },
+  
+  "SrTiO3_perovskite": {
+    "name": "Perovskite",
+    "formula": "SrTiO3",
+    "stoichiometry": "ABX3",
+    "lattice_type": "cP",
+    "params": {
+      "a": 3.905
+    },
+    "cation_positions": [
+      [0.0, 0.0, 0.0],
+      [0.5, 0.5, 0.5]
+    ],
+    "anion_positions": [
+      [0.5, 0.5, 0.0],
+      [0.5, 0.0, 0.5],
+      [0.0, 0.5, 0.5]
+    ],
+    "coordination_numbers": [6, 6, 6],
+    "n_cations": 2,
+    "space_group": "Pm-3m",
+    "space_group_number": 221,
+    "source": "ICSD, Standard reference",
+    "notes": "Sr at corners (CN-12), Ti at body center (CN-6 octahedral), O at face centers"
+  }
+}
